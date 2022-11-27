@@ -22,7 +22,7 @@ export const Navbar = () => {
                 <img src={toggle ? close : menu} onClick={() => setToggle((prev) => !prev)}
                     alt="logo" className='w-[28px] h-[28px] object-contain' />
                 <div className={`${toggle ? 'flex' : `hidden `} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`} >
-                    <ul className='list-none flex-col  justify-end item-center flex-1 br ' >
+                    <ul className='list-none flex-col  justify-end item-center flex-1  ' >
                         {navLinks.map((na, index) => {
                             return (
                                 <>
