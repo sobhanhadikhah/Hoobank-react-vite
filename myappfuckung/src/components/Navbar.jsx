@@ -13,7 +13,7 @@ export const Navbar = () => {
                         <>
                             <li key={index}
                                 className={`font-poppins ${index === navLinks.length - 1 ? `mr-0` : `mr-10`} cursor-pointer text-white font-normal text-[16px]`}
-                            ><a className='hover:text-sky-500  transition duration-300 ease-out duration-300' key={na.id} to={na.id} >{na.title}</a>  </li>
+                            ><a className='hover:text-secondary  transition  ease-out duration-300' key={na.id} to={na.id} >{na.title}</a>  </li>
                         </>
                     )
                 })}
